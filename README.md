@@ -1,14 +1,14 @@
 # AWS Lambda Layers for Whanpia - Call & Message Alert Service
 
-This repo is the contents of the packaged Lambda Layer code for [whanpia-alerts](https://github.com/nedd-ludd/whanpia-alerts/).
+This repo contains Python packages in Lambda Layer required for [whanpia-alerts](https://github.com/nedd-ludd/whanpia-alerts/).
 
-The following Python packages are included:
+The following are included:
 
 - boto3
 - telnyx
 - six
 
-In order to upload as an AWS Lambda Layer, the "python" directory and contents must be compressed as a .zip file.
+In order to upload as an AWS Lambda Layer, the "python" directory and contents must be compressed as a .zip file prior to uploading.
 
 ## Misc Information
 
